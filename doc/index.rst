@@ -165,7 +165,6 @@ The Education Working Group (EWG) works to promote access to educational materia
 
 .. toctree::
     :maxdepth: 2
-    :glob:
 
-    ../bin/elasticity-flexture-L0/index.md
-    ../bin/geodynamic-modeling-L0/index.md
+    bin/elasticity-flexture-L0/index.md
+    bin/geodynamic-modeling-L0/index.md
