@@ -1,3 +1,4 @@
+# GEM Notebooks
 
 ```{image} ../bin/assets/education-gem-notebooks_icon.png
 
@@ -20,7 +21,7 @@ The educational resources will address key topics in geodynamics. Our core focus
 
 | Topics | Subtopics |
 |:-------|:----------|
-| 101 modeling | Based on van [Zelst et al. (2022)](https://doi.org/10.5194/se-13-583-2022): <ul><li> Physical model </li><li> Numerical model </li><li> Code verification </li><li> Model setup </li><li> Model validation </li><li> Model analysis </li><li> Communicating modeling results </li><li> Software, data, and resource management </li></ul>|
+| 101 modeling | Based on van Zelst et al. (2022): <ul><li> Physical model </li><li> Numerical model </li><li> Code verification </li><li> Model setup </li><li> Model validation </li><li> Model analysis </li><li> Communicating modeling results </li><li> Software, data, and resource management </li></ul>|
 | Heat flow | <ul><li> Radiogenic heat/crustal composition </li><li> Mantle temperature </li><li> Surface heat flow in the oceans (halfspace cooling, plate model) </li></ul> |
 | Mantle dynamics | <ul><li> Global mantle flow </li><li> Plate driving forces </li><li> Earth chemical evolution </li><li> Non-dimensional numbers, e.g., Rayleigh number, Nusselt number, scaling for simple convection </li><li> Different tectonic regimes (mobile lid, stagnant lid, heat piping, etc) / regime diagrams </li><li> Mantle plumes </li></ul> |
 | Elasticity & flexure | <ul><li> Loading-Induced Deformation </li><li> Elastic Rebound Theory </li></ul> |
