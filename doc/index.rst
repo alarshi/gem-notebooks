@@ -1,6 +1,8 @@
 # GEM Notebooks
 
-```{image} ../bin/assets/education-gem-notebooks_icon.png
+.. figure:: ../bin/assets/education-gem-notebooks_icon.png
+    :figwidth: 50%
+    :align: center
 
 ## About
 Geodynamics is a field of Earth Sciences that relies heavily on computational methods and modeling tools to advance our understanding of Earth systems. The integration of field and geophysical observations with numerical modeling is nowadays essential in geodynamical research. Thus, the need to incorporate computational skills into undergraduate and graduate curricula is crucial. Individual efforts already exist, as many lecturers that use computational tools in their research tend to integrate some degree of computation in their syllabus. However,  there are many barriers to making this a widespread practice. Some lecturers do not have the appropriate expertise in computational methods, or if they do, then the added workload to redesign or adjust courses accordingly can be dissuasive. In addition, the installation of these computational tools can be a challenge for students (e.g., due to the large number of underlying libraries and dependencies) and a barrier to their use in a classroom environment. 
@@ -14,7 +16,9 @@ Due to their modular design, these resources could be used independently, but co
 ## Philosophy
 This initiative is led by the Computational Infrastructure for Geodynamics and is overseen by an Education Working Group [(EWG)](#education-working-group). The latter recognized the existing overlap between the teaching of geodynamics, programming, and CIG software. The teaching component can be divided into two paths, the geology path, and the geophysics path. The geology path focuses on the qualitative (or semiquantitative) understanding of the physical processes of the Earth and terrestrial planets. The students are introduced to the governing physics equations, but are not expected to solve them. The geophysics path refers to programs that require a strong background in physics and teach geodynamical concepts in a quantitative way with an emphasis on manipulating and solving the governing equations. This is summarized in Figure 1, where the highlighted five domains (A, B, C, D, E) are where we think CIG can contribute by using the CIG software to support the teaching of geodynamical concepts and the related computational methods. While A, B, and C can be seen as representing upper division courses of increasing complexity, respectively, D and E are research intensive programs at graduate and postgraduate level.
 
-```{image} ../bin/assets/venn_diagram-programming_geo.png
+.. figure:: ../bin/assets/venn_diagram-programming_geo.png
+    :figwidth: 50%
+    :align: center
 
 ## Geodynamics’ topics
 The educational resources will address key topics in geodynamics. Our core focus will be on the following concepts:
@@ -101,13 +105,18 @@ The typical notebook should include:
 3. Numerical  section, where the geodynamic topic is addressed numerically using CIG software. This would allow the student to acquire and apply computational modeling skills.
 The level of complexity of each of these sections should be consistent with the intended level of the notebook (i.e., foundational, intermediate, or advanced).
 
-```{image} ../bin/assets/notebook_template.png
+.. figure:: ../bin/assets/notebook_template.png
+    :figwidth: 50%
+    :align: center
 
 ## Development strategy
 
-```{image} ../bin/assets/development_strategy.png
+.. figure:: ../bin/assets/development_strategy.png
+    :figwidth: 50%
+    :align: center
 
 The development of these notebooks will consist of three distinct steps:
+
 1. **Drafting:** an outline of the notebook will be made capturing the content of each of the above-mentioned sections. The draft will be shared with EWG for feedback.
 
 2. **Finalization:** the notebook will be finalized based on the feedback provided by the EWG. 
@@ -125,12 +134,21 @@ The development timeline will be topic-dependent and should be assessed on a cas
 The Education Working Group (EWG) works to promote access to educational materials for geodynamics. The EWG advances the infrastructure and content needed to develop a computationally skilled workforce and increase discovery of the discipline. This is achieved through integrating computation with domain science in upper division and graduate level learning.
 
 **Committee members:**
-- Juliane Dannberg (University of Florida)
-- Mohamed Gouiza (University of California, Davis)
+
+- Juliane Dannberg (Geomar Helmholtz Centre for Ocean Research Kiel)
+
+- Mohamed Gouiza (University of Leeds)
+
 - Adam Holt (University of Miami)
+
 - Lorraine Hwang (University of California, Davis)
+
 - Gabriele Morra (University of Louisiana at Lafayette)
+
 - John Naliboff (New Mexico Tech)
+
 - Max Rudolph (University of California, Davis)
+
 - Sarah Stamps (Virginia Tech)
+
 - Iris van Zelst (German Aerospace Center, DLR)
