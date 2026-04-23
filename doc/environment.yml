@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - jupyter
-  - myst-parser
+  - myst_nb
   - notebook
   - sphinx
   - sphinx-rtd-theme

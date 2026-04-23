@@ -1,6 +1,3 @@
-import os
-import sys
-
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
@@ -14,13 +11,18 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    'nbsphinx',
-    'myst_parser',
+    'myst_nb',
 ]
 
 templates_path = ['_templates']
-exclude_patterns = []
-tags_extension = ["md"]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'myst',
+    '.ipynb': 'myst-nb',
+}
+
+exclude_patterns = ['_build', '**.ipynb_checkpoints']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -28,6 +30,3 @@ html_theme = 'alabaster'
 html_title = 'CIG Education GEM Notebooks'
 html_logo  = './assets/education-gem-notebooks_icon.png'
 html_static_path = ['_static']
-
-# -- Read the Docs specific configuration ------------------------------------
-sys.path.insert(0, os.path.abspath('elasticity-flexture-L0/'))
