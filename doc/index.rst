@@ -168,4 +168,5 @@ The Education Working Group (EWG) works to promote access to educational materia
     :maxdepth: 2
     :glob:
 
-    ../bin/elasticity-flexture-L0/*
+    ../bin/elasticity-flexture-L0/index.md
+    
