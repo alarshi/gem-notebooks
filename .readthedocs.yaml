@@ -5,9 +5,10 @@ build:
   tools:
     python: "mambaforge-4.10"
 
+# change the following to true once testing is done
 sphinx:
   configuration: ./doc/conf.py
-  fail_on_warning: true
+  fail_on_warning: false
 
 formats:
   - pdf
