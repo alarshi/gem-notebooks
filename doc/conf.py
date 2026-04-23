@@ -16,17 +16,11 @@ extensions = [
 
 templates_path = ['_templates']
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'myst',
-    '.ipynb': 'myst-nb',
-}
-
 exclude_patterns = ['_build', '**.ipynb_checkpoints']
 
 
 # -- Options for HTML output -------------------------------------------------
-html_theme = 'alabaster'
+html_theme = 'sphinx_book_theme'
 html_title = 'CIG Education GEM Notebooks'
-html_logo  = './assets/education-gem-notebooks_icon.png'
+html_logo  = '../bin/assets/education-gem-notebooks_icon.png'
 html_static_path = ['_static']

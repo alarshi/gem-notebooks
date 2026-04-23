@@ -163,8 +163,9 @@ The Education Working Group (EWG) works to promote access to educational materia
 - Iris van Zelst (German Aerospace Center, DLR)
 
 
+Table of contents
+-------------------------
 .. toctree::
     :maxdepth: 2
 
-    bin/elasticity-flexture-L0/index.md
-    bin/geodynamic-modeling-L0/index.md
+    module_files/elasticity-flexture-L0/index
