@@ -14,11 +14,14 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    "nbsphinx",
+    'nbsphinx',
+    'myst_parser',
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
+tags_extension = ["md"]
+
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = 'alabaster'

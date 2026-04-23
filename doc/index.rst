@@ -28,16 +28,15 @@ Geodynamics’ topics
 ----------------------------
 The educational resources will address key topics in geodynamics. Our core focus will be on the following concepts:
 
-.. table:: Geodynamic modules and Subtopics
+.. table:: 
     :widths: auto
     :align: center
 
     +-----------------------------+-------------------------------------------------------------+
     | Modules                     | Topics                                                      |
     +=============================+=============================================================+
-    | 101 modeling                | Based on van Zelst et al. (2022):                           |
-    |                             | - Physical model                                            |
-    |                             | - Numerical model                                           |
+    | 101 modeling                | - Physical model                                            |
+    | (van Zelst  et al. (2022))  | - Numerical model                                           |
     |                             | - Code verification                                         |
     |                             | - Model setup                                               |
     |                             | - Model validation                                          |
@@ -169,4 +168,4 @@ The Education Working Group (EWG) works to promote access to educational materia
     :glob:
 
     ../bin/elasticity-flexture-L0/index.md
-    
+    ../bin/geodynamic-modeling-L0/index.md
