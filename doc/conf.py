@@ -4,7 +4,7 @@ import sys
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-project = 'CIG Education GEM Notebooks'
+project = 'GEM Notebooks'
 author = 'CIG Education Team'
 release = '0.1'
 

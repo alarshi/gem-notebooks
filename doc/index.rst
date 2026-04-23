@@ -139,7 +139,8 @@ The development timeline will be topic-dependent and should be assessed on a cas
 - Finalization: 2 weeks.
 - Testing: 3 weeks (like the initial feedback phase, this will depend on the EWG availability and engagement).
 
-## Education Working Group
+Education Working Group
+----------------------------
 The Education Working Group (EWG) works to promote access to educational materials for geodynamics. The EWG advances the infrastructure and content needed to develop a computationally skilled workforce and increase discovery of the discipline. This is achieved through integrating computation with domain science in upper division and graduate level learning.
 
 **Committee members:**
@@ -164,6 +165,7 @@ The Education Working Group (EWG) works to promote access to educational materia
 
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
+    :glob:
 
-    ../bin/elasticity-flexture-L0/0_overview-elasticity-flexure.ipynb
+    ../bin/elasticity-flexture-L0/*
