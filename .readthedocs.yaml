@@ -6,8 +6,11 @@ build:
     python: "mambaforge-4.10"
 
 sphinx:
-  configuration: ./bin/conf.py
+  configuration: ./doc/conf.py
   fail_on_warning: true
 
 formats:
   - pdf
+
+conda:
+  environment: ./doc/environment.yml
