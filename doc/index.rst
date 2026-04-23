@@ -18,19 +18,70 @@ This initiative is led by the Computational Infrastructure for Geodynamics and i
 
 ## Geodynamics’ topics
 The educational resources will address key topics in geodynamics. Our core focus will be on the following concepts:
+.. list-table:: Geodynamics Topics and Subtopics
+    :widths: 20 80
+    :header-rows: 1
 
-| Topics | Subtopics |
-|:-------|:----------|
-| 101 modeling | Based on van Zelst et al. (2022): <ul><li> Physical model </li><li> Numerical model </li><li> Code verification </li><li> Model setup </li><li> Model validation </li><li> Model analysis </li><li> Communicating modeling results </li><li> Software, data, and resource management </li></ul>|
-| Heat flow | <ul><li> Radiogenic heat/crustal composition </li><li> Mantle temperature </li><li> Surface heat flow in the oceans (halfspace cooling, plate model) </li></ul> |
-| Mantle dynamics | <ul><li> Global mantle flow </li><li> Plate driving forces </li><li> Earth chemical evolution </li><li> Non-dimensional numbers, e.g., Rayleigh number, Nusselt number, scaling for simple convection </li><li> Different tectonic regimes (mobile lid, stagnant lid, heat piping, etc) / regime diagrams </li><li> Mantle plumes </li></ul> |
-| Elasticity & flexure | <ul><li> Loading-Induced Deformation </li><li> Elastic Rebound Theory </li></ul> |
-| Stress & strain | <ul><li> An introduction to tensors </li><li> Measuring stress and strain </li><li> Simple stress-strain relationships </li><li> Time scales and links to earthquake seismology </li></ul> |
-| Rheology | <ul><li> Viscous Flow </li><li> Brittle Failure </li><li> Elasticity </li><li> Composite rheologies </li></ul> |
-| Phase transition | <ul><li> Clapeyron slopes / exothermic vs. endothermic Melt </li></ul> |
-| Melt | <ul><li> generation & partitioning </li><li> Extrusive vs intrusive </li><li> Outgassing of volatiles and coupling with atmospheric studies </li></ul> |
-| Extension, rifting, & drifting | <ul><li> Continental rifts </li><li> Mid-oceanic ridges  </li><li> Initial heterogeneities (what are they? initial & boundary conditions and their effects) </li></ul> |
-| Shortening, orogenesis, & subduction |  <ul><li> Upper plate deformation (mountains vs. back-arcs) </li><li> Subduction zone forces (e.g., slab pull, ridge push) </li><li> Subduction-induced mantle flow (e.g., toroidal vs poloidal) </li><li> Thermal structure and relation to other topics (earthquake locations, tomography etc) </li></ul> |
+    * - Modules
+      - Topics
+    * - 101 modeling
+      - Based on van Zelst et al. (2022):
+         - Physical model
+         - Numerical model
+         - Code verification
+         - Model setup
+         - Model validation
+         - Model analysis
+         - Communicating modeling results
+         - Software, data, and resource management
+    * - Heat flow
+      - 
+         - Radiogenic heat/crustal composition
+         - Mantle temperature
+         - Surface heat flow in the oceans (halfspace cooling, plate model)
+    * - Mantle dynamics
+      - 
+         - Global mantle flow
+         - Plate driving forces
+         - Earth chemical evolution
+         - Non-dimensional numbers, e.g., Rayleigh number, Nusselt number, scaling for simple convection
+         - Different tectonic regimes (mobile lid, stagnant lid, heat piping, etc) / regime diagrams
+         - Mantle plumes
+    * - Elasticity & flexure
+      - 
+         - Loading-Induced Deformation
+         - Elastic Rebound Theory
+    * - Stress & strain
+      - 
+         - An introduction to tensors
+         - Measuring stress and strain
+         - Simple stress-strain relationships
+         - Time scales and links to earthquake seismology
+    * - Rheology
+      - 
+         - Viscous Flow
+         - Brittle Failure
+         - Elasticity
+         - Composite rheologies
+    * - Phase transition
+      - 
+         - Clapeyron slopes / exothermic vs. endothermic Melt
+    * - Melt
+      - 
+         - Generation & partitioning
+         - Extrusive vs intrusive
+         - Outgassing of volatiles and coupling with atmospheric studies
+    * - Extension, rifting, & drifting
+      - 
+         - Continental rifts
+         - Mid-oceanic ridges
+         - Initial heterogeneities (what are they? initial & boundary conditions and their effects)
+    * - Shortening, orogenesis, & subduction
+      - 
+         - Upper plate deformation (mountains vs. back-arcs)
+         - Subduction zone forces (e.g., slab pull, ridge push)
+         - Subduction-induced mantle flow (e.g., toroidal vs poloidal)
+         - Thermal structure and relation to other topics (earthquake locations, tomography etc)
 
 ## Prerequisites
 Each topic is covered in a series of notebooks of varying levels taking into consideration the course level and the student proficiency in terms of computing literacy. The levels of complexity could be a function of the domain science covered by the notebooks or a function of the computational skills required to efficiently use the notebooks. In our case, these levels are defined below based on the latter.
