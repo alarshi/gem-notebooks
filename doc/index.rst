@@ -1,26 +1,31 @@
-# GEM Notebooks
+GEM Notebooks
+====================
 
 .. figure:: ../bin/assets/education-gem-notebooks_icon.png
-    :figwidth: 50%
+    :width: 20%
     :align: center
 
-## About
+About
+----------------------------
 Geodynamics is a field of Earth Sciences that relies heavily on computational methods and modeling tools to advance our understanding of Earth systems. The integration of field and geophysical observations with numerical modeling is nowadays essential in geodynamical research. Thus, the need to incorporate computational skills into undergraduate and graduate curricula is crucial. Individual efforts already exist, as many lecturers that use computational tools in their research tend to integrate some degree of computation in their syllabus. However,  there are many barriers to making this a widespread practice. Some lecturers do not have the appropriate expertise in computational methods, or if they do, then the added workload to redesign or adjust courses accordingly can be dissuasive. In addition, the installation of these computational tools can be a challenge for students (e.g., due to the large number of underlying libraries and dependencies) and a barrier to their use in a classroom environment. 
 Hence, developing teaching material that is openly available and easily deployable should help instructors fill the gap between existing curricula and skills needed to leverage the great potential of (CIG) computational tools.
 
-## Objective
+Objective
+----------------------------
 The aim of this initiative is to develop modular teaching resources for upper division and graduate level geodynamic courses. By integrating computing methods and tools in a Jupyter Notebook environment to teach geodynamical concepts, these resources should enable and promote the training of a computationally skilled workforce and increase awareness and recruitment  of students to the Earth Sciences disciplines and specifically computational geodynamics.
 
 Due to their modular design, these resources could be used independently, but could also be easily combined to create new (or more advanced) teaching material and tutorials for CIG software workshops.
 
-## Philosophy
+Philosophy
+----------------------------
 This initiative is led by the Computational Infrastructure for Geodynamics and is overseen by an Education Working Group [(EWG)](#education-working-group). The latter recognized the existing overlap between the teaching of geodynamics, programming, and CIG software. The teaching component can be divided into two paths, the geology path, and the geophysics path. The geology path focuses on the qualitative (or semiquantitative) understanding of the physical processes of the Earth and terrestrial planets. The students are introduced to the governing physics equations, but are not expected to solve them. The geophysics path refers to programs that require a strong background in physics and teach geodynamical concepts in a quantitative way with an emphasis on manipulating and solving the governing equations. This is summarized in Figure 1, where the highlighted five domains (A, B, C, D, E) are where we think CIG can contribute by using the CIG software to support the teaching of geodynamical concepts and the related computational methods. While A, B, and C can be seen as representing upper division courses of increasing complexity, respectively, D and E are research intensive programs at graduate and postgraduate level.
 
 .. figure:: ../bin/assets/venn_diagram-programming_geo.png
-    :figwidth: 50%
+    :width: 80%
     :align: center
 
-## Geodynamics’ topics
+Geodynamics’ topics
+----------------------------
 The educational resources will address key topics in geodynamics. Our core focus will be on the following concepts:
 
 .. table:: Geodynamic modules and Subtopics
@@ -87,7 +92,8 @@ The educational resources will address key topics in geodynamics. Our core focus
     |                             |   (earthquake locations, tomography etc)                    |
     +-----------------------------+-------------------------------------------------------------+
 
-## Prerequisites
+Prerequisites
+--------------
 Each topic is covered in a series of notebooks of varying levels taking into consideration the course level and the student proficiency in terms of computing literacy. The levels of complexity could be a function of the domain science covered by the notebooks or a function of the computational skills required to efficiently use the notebooks. In our case, these levels are defined below based on the latter.
 
 - Foundational resources target introductory geodynamic courses and require minimal programming skills. The analytical section of the notebooks will include all necessary scripts and functions discretizing the governing equations of the targeted geodynamic concept. The geodynamic section of the notebook will include the required inputs (e.g., input parameters, input files) to simulate the geodynamic concept using CIG software.
@@ -96,8 +102,10 @@ Each topic is covered in a series of notebooks of varying levels taking into con
 
 - Advanced resources require a level of programming and computational literacy, which students can build on to acquire new advanced skills. For instance, they will be prompted to discretize the governing equations by writing their own scripts and functions. They will also learn how to derive input parameters and compile input files to run geodynamic models using CIG software.
 
-## Notebook template
+Notebook template
+----------------------------
 The typical notebook should include:
+
 1. Summary section, to introduce the geodynamic topic and the governing physics equations.
 
 2. Analytical section, where the governing equations of the geodynamic concept are solved/modeled  analytically. This would allow the student to acquire and apply pythonic skills.
@@ -105,14 +113,15 @@ The typical notebook should include:
 3. Numerical  section, where the geodynamic topic is addressed numerically using CIG software. This would allow the student to acquire and apply computational modeling skills.
 The level of complexity of each of these sections should be consistent with the intended level of the notebook (i.e., foundational, intermediate, or advanced).
 
-.. figure:: ../bin/assets/notebook_template.png
-    :figwidth: 50%
+.. figure:: ../bin/assets/nb_template.png
+    :width: 100%
     :align: center
 
-## Development strategy
+Development strategy
+----------------------------
 
-.. figure:: ../bin/assets/development_strategy.png
-    :figwidth: 50%
+.. figure:: ../bin/assets/dev-strategy.png
+    :width: 100%
     :align: center
 
 The development of these notebooks will consist of three distinct steps:
@@ -152,3 +161,9 @@ The Education Working Group (EWG) works to promote access to educational materia
 - Sarah Stamps (Virginia Tech)
 
 - Iris van Zelst (German Aerospace Center, DLR)
+
+
+.. toctree::
+   :maxdepth: 2
+
+    ../bin/elasticity-flexture-L0/0_overview-elasticity-flexure.ipynb
