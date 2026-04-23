@@ -7,7 +7,7 @@ dependencies:
   - myst-nb
   - notebook
   - sphinx
-  - sphinx-rtd-theme
+  - sphinx-book-theme
   - ipykernel
   - nbconvert
   - pandoc
