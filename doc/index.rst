@@ -23,13 +23,12 @@ This initiative is led by CIG and overseen by an Education Working Group (EWG), 
 
 Teaching is organized along two paths. The geology path focuses on qualitative to semi-quantitative understanding of Earth and planetary processes, where students encounter the governing equations but are not expected to solve them. The geophysics path is more quantitative, requiring a strong physics background and emphasizing deriving and solving those equations.
 
-Figure 1 illustrates five domains (A–E) where CIG can contribute by using its software to support geodynamical concepts and computational methods. Domains A, B, and C represent upper-division courses of increasing complexity; D and E are research-intensive graduate and postgraduate programs.
-
 .. figure:: ../bin/assets/venn_diagram-programming_geo.png
     :width: 80%
     :align: center
+    :alt: Figure illustrates five domains (A–E) where CIG can contribute by using its software to support geodynamical concepts and computational methods. Domains A, B, and C represent upper-division courses of increasing complexity; D and E are research-intensive graduate and postgraduate programs.
 
-Geodynamics’ topics
+Topics covered
 ----------------------------
 The educational resources will address key topics in geodynamics. Our core focus will be on the following concepts:
 
@@ -41,8 +40,8 @@ The educational resources will address key topics in geodynamics. Our core focus
     | Modules                     | Topics                                                      |
     +=============================+=============================================================+
     | 101 modeling                | - Physical model                                            |
-    | (van Zelst  et al. (2022))  | - Numerical model                                           |
-    |                             | - Code verification                                         |
+    |                             | - Numerical model                                           |
+    | (van Zelst  et al. (2022))  | - Code verification                                         |
     |                             | - Model setup                                               |
     |                             | - Model validation                                          |
     |                             | - Model analysis                                            |
@@ -63,7 +62,7 @@ The educational resources will address key topics in geodynamics. Our core focus
     |                             |   heat piping, etc) / regime diagrams                       |
     |                             | - Mantle plumes                                             |
     +-----------------------------+-------------------------------------------------------------+
-    | Elasticity & flexure        | - Loading-Induced Deformation                               |
+    | `Elasticity & flexure`_     | - Loading-Induced Deformation                               |
     |                             | - Elastic Rebound Theory                                    |
     +-----------------------------+-------------------------------------------------------------+
     | Stress & strain             | - An introduction to tensors                                |
@@ -96,7 +95,7 @@ The educational resources will address key topics in geodynamics. Our core focus
 
 Prerequisites
 --------------
-Each notebook covers the scientific background of a geodynamic process, its governing equations, and the computational skills needed to model it.Each notebook covers the scientific background of a geodynamic process, its governing equations, and the computational skills needed to model it. Where analytical solutions exist, notebooks include an analytical section for students to solve the governing equations using Python. All notebooks include a numerical modeling section where students apply CIG software to simulate the concept computationally.
+Each notebook covers the scientific background of a geodynamic process, its governing equations, and the computational skills needed to model it. Each notebook covers the scientific background of a geodynamic process, its governing equations, and the computational skills needed to model it. Where analytical solutions exist, notebooks include an analytical section for students to solve the governing equations using Python. All notebooks include a numerical modeling section where students apply CIG software to simulate the concept computationally.
 
 Notebook template
 ----------------------------
@@ -107,7 +106,6 @@ The typical notebook should include:
 2. Analytical section, where the governing equations of the geodynamic concept are solved/modeled  analytically. This would allow the student to acquire and apply pythonic skills.
 
 3. Numerical  section, where the geodynamic topic is addressed numerically using CIG software. This would allow the student to acquire and apply computational modeling skills.
-The level of complexity of each of these sections should be consistent with the intended level of the notebook (i.e., foundational, intermediate, or advanced).
 
 .. figure:: ../bin/assets/nb_template.png
     :width: 100%
@@ -159,10 +157,4 @@ The Education Working Group (EWG) works to promote access to educational materia
 
 - Iris van Zelst (German Aerospace Center, DLR)
 
-
-Table of contents
--------------------------
-.. toctree::
-    :maxdepth: 2
-
-    module_files/elasticity-flexture-L0/index
+.. _Elasticity & flexure: https://mybinder.org/v2/gh/JarettBakerDunn/geodynamics_education_modules_jbd/HEAD?urlpath=%2Fdoc%2Ftree%2Fsource%2Fgeodynamics%2Felasticity-flexture-L0%2F4_plotting_the_model_simulation_results.ipynb
